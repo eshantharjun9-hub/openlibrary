@@ -19,6 +19,7 @@ const cssFiles = glob.sync('./static/css/page-*.css');
 const entries = {
     // Design tokens — compiled from static/css/tokens/ into a single file
     tokens: './static/css/tokens.css',
+    'pre-hydration': './static/css/pre-hydration.css',
 };
 
 cssFiles.forEach(file => {
